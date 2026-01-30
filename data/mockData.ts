@@ -56,26 +56,26 @@ export const projects = [
     live: null,
     type: "real"
   },
-  {
-    id: 3,
-    title: "Component Forge",
-    description: "Design system builder for rapidly prototyping and documenting React component libraries. Features live preview, code generation, and accessibility testing built-in.",
-    tech: ["React", "TypeScript", "Storybook", "Tailwind CSS", "Framer Motion"],
-    impact: ["Accelerates component development by 40%", "Ensures design consistency", "Built-in accessibility auditing"],
-    github: null,
-    live: null,
-    type: "conceptual"
-  },
-  {
-    id: 4,
-    title: "DevMetrics Dashboard",
-    description: "Analytics platform for developers tracking code quality metrics, performance benchmarks, and project health indicators. Real-time insights into build times, bundle sizes, and code coverage.",
-    tech: ["React", "TypeScript", "D3.js", "Node.js", "MongoDB"],
-    impact: ["Identifies performance bottlenecks", "Tracks code quality trends", "Improves team productivity"],
-    github: null,
-    live: null,
-    type: "conceptual"
-  }
+//   {
+//     id: 3,
+//     title: "Component Forge",
+//     description: "Design system builder for rapidly prototyping and documenting React component libraries. Features live preview, code generation, and accessibility testing built-in.",
+//     tech: ["React", "TypeScript", "Storybook", "Tailwind CSS", "Framer Motion"],
+//     impact: ["Accelerates component development by 40%", "Ensures design consistency", "Built-in accessibility auditing"],
+//     github: null,
+//     live: null,
+//     type: "conceptual"
+//   },
+//   {
+//     id: 4,
+//     title: "DevMetrics Dashboard",
+//     description: "Analytics platform for developers tracking code quality metrics, performance benchmarks, and project health indicators. Real-time insights into build times, bundle sizes, and code coverage.",
+//     tech: ["React", "TypeScript", "D3.js", "Node.js", "MongoDB"],
+//     impact: ["Identifies performance bottlenecks", "Tracks code quality trends", "Improves team productivity"],
+//     github: null,
+//     live: null,
+//     type: "conceptual"
+//   }
 ];
 
 export const experience = [
