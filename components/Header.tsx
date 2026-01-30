@@ -19,7 +19,7 @@ const Header = () => {
     return () => unsubscribe();
   }, [scrollY]);
 
-  const scrollToSection = (id: any) => {
+  const scrollToSection = (id: string) => {
     if (typeof window === 'undefined') return;
 
     const element = document.getElementById(id);

@@ -7,7 +7,7 @@ import { personalInfo } from '@/data/mockData';
 // import { personalInfo } from '../mockData';
 
 const Hero = () => {
-  const scrollToSection = (id: any) => {
+  const scrollToSection = (id: string) => {
     if (typeof window === 'undefined') return;
 
     const element = document.getElementById(id);
