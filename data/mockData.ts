@@ -103,7 +103,7 @@ export const education = [
     degree: "Master of Computer Applications (MCA)",
     institution: "Savitribai Phule Pune University (PUCSD)",
     duration: "August 2023 - August 2025",
-    cgpa: "7.8",
+    cgpa: "8.3",
     coursework: ["Data Structures and Algorithms", "Operating Systems", "Computer Networks"]
   },
   {
