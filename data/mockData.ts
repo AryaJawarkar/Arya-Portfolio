@@ -2,7 +2,7 @@
 
 export const personalInfo = {
   name: "Arya Jawarkar",
-  role: "Software Engineer",
+  role: ['Software Engineer', 'Full Stack Developer', 'Problem Solver'],
   tagline: "Frontend Engineer specializing in React, TypeScript, and building polished, performant user experiences",
   location: "Pune, Maharashtra",
   email: "aryajawarkar7@gmail.com",
