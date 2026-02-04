@@ -15,11 +15,6 @@ const Skills = () => {
       gradient: 'from-blue-500/20 to-cyan-500/20',
     },
     {
-      title: 'State Management',
-      items: skills.stateManagement,
-      gradient: 'from-violet-500/20 to-purple-500/20',
-    },
-    {
       title: 'Styling & UI',
       items: skills.styling,
       gradient: 'from-blue-500/20 to-violet-500/20',

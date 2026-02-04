@@ -2,14 +2,14 @@
 
 export const personalInfo = {
   name: "Arya Jawarkar",
-  role: ['Software Engineer', 'Full Stack Developer', 'Problem Solver'],
+  role: ['Software Engineer', 'Frontend Developer', 'Problem Solver'],
   tagline: "Frontend Engineer specializing in React, TypeScript, and building polished, performant user experiences",
   location: "Pune, Maharashtra",
   email: "aryajawarkar7@gmail.com",
   phone: "8788652743",
   linkedin: "linkedin.com/in/aryajawarkar",
   github: "github.com/AryaJawarkar",
-  resumeUrl: "https://customer-assets.emergentagent.com/job_829eb5de-0d2a-477e-87d3-708d83348829/artifacts/qmu9b9t8_Arya-Jawarkar-resume.pdf"
+  resumeUrl: "https://aryajawarkar.github.io/Arya-Resume/Arya-Resume-1.pdf"
 };
 
 export const about = {
@@ -27,12 +27,11 @@ export const about = {
 };
 
 export const skills = {
-  frontend: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3"],
-  stateManagement: ["Jotai", "Context API", "React Query"],
-  styling: ["Tailwind CSS", "ShadcnUI", "Material-UI", "Responsive Design"],
-  tooling: ["Git", "GitHub", "Figma", "Linux", "Webpack"],
-  apis: ["REST APIs", "GeminiAPI", "Open Router"],
-  fundamentals: ["Data Structures", "Algorithms", "DBMS", "Computer Networks"]
+  frontend: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Web Performance Optimization"],
+  styling: ["Tailwind CSS", "ShadcnUI", "Material-UI", "Responsive Design", "Vite", "ESLint", "Prettier"],
+  tooling: ["Git", "GitHub", "Figma", "Linux", "Jira", "Zoho", "Cursor"],
+  apis: ["REST APIs", "GeminiAPI", "Open Router", "Axios", "JWT Authentication"],
+  fundamentals: ["Data Structures", "Algorithms", "DBMS", "Computer Networks", "Operating Systems"]
 };
 
 export const projects = [
@@ -56,26 +55,6 @@ export const projects = [
     live: null,
     type: "real"
   },
-//   {
-//     id: 3,
-//     title: "Component Forge",
-//     description: "Design system builder for rapidly prototyping and documenting React component libraries. Features live preview, code generation, and accessibility testing built-in.",
-//     tech: ["React", "TypeScript", "Storybook", "Tailwind CSS", "Framer Motion"],
-//     impact: ["Accelerates component development by 40%", "Ensures design consistency", "Built-in accessibility auditing"],
-//     github: null,
-//     live: null,
-//     type: "conceptual"
-//   },
-//   {
-//     id: 4,
-//     title: "DevMetrics Dashboard",
-//     description: "Analytics platform for developers tracking code quality metrics, performance benchmarks, and project health indicators. Real-time insights into build times, bundle sizes, and code coverage.",
-//     tech: ["React", "TypeScript", "D3.js", "Node.js", "MongoDB"],
-//     impact: ["Identifies performance bottlenecks", "Tracks code quality trends", "Improves team productivity"],
-//     github: null,
-//     live: null,
-//     type: "conceptual"
-//   }
 ];
 
 export const experience = [
@@ -83,19 +62,33 @@ export const experience = [
     id: 1,
     title: "Software Engineer",
     company: "Ignite Solutions",
+    project: "Chaturji.ai",
     location: "Pune, Maharashtra",
     duration: "January 2025 - Present",
     type: "Remote",
     responsibilities: [
-      "Architected and maintained scalable, modular frontend applications using React (TypeScript) and Jotai for state management",
-      "Built responsive and accessible UI components following modern design systems and best practices",
-      "Collaborated cross-functionally with product and design teams to translate Figma wireframes into production-ready interfaces",
-      "Improved application performance through React render optimization, code splitting, and lazy loading strategies",
-      "Maintained high code quality through rigorous code reviews, testing, and version control with GitHub"
+      "Working on the Chaturji.ai platform to develop and maintain scalable, modular frontend applications using React (TypeScript) and Jotai for state management",
+      "Collaborated closely with product managers and designers to convert Figma wireframes into high-performance, production-ready interfaces for Chaturji.ai",
+      "Optimized application performance by improving React render cycles, implementing lazy loading, and reducing unnecessary re-renders",
+      "Designed and implemented a Room Templates feature in Chaturji.ai that allows users to create rooms from predefined templates while preserving existing room information",
+      "Enhanced the Room Templates workflow by enabling users to enrich rooms with additional context from attached files without overwriting existing content",
+      "Refactored frontend components to improve type safety, reduce runtime bugs, and ensure long-term maintainability",
+      "Single-handedly implemented key product flows including user onboarding, login UI, and the core home chat screen interface",
+      "Improved overall user experience by enhancing load times and responsiveness across multiple devices",
+      "Used GitHub for version control, participated in code reviews, and maintained high code quality standards"
     ],
-    technologies: ["React.js", "TypeScript", "Jotai", "MUI", "Next.js", "GitHub"]
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "Jotai",
+      "Next.js",
+      "MUI",
+      "Git",
+      "GitHub"
+    ]
   }
 ];
+
 
 export const education = [
   {

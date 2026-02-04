@@ -34,7 +34,7 @@ const Footer = () => {
             <p className="text-gray-400 text-sm flex items-center justify-center md:justify-start">
               Built with
               <Heart size={14} className="mx-1 text-red-500" fill="currentColor" />
-              and React
+              by Arya
             </p>
           </motion.div>
 
