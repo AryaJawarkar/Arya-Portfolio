@@ -2,8 +2,8 @@
 
 export const personalInfo = {
   name: "Arya Jawarkar",
-  role: ['Software Engineer', 'Frontend Developer', 'Problem Solver'],
-  tagline: "Frontend Engineer specializing in React, TypeScript, and building polished, performant user experiences",
+  role: ['Software Engineer', 'FullStack Developer', 'Problem Solver'],
+  tagline: "Software Engineer working across React frontends and Python Flask backends, with MongoDB, MongoDB Compass, and Postman in the development workflow",
   location: "Pune, Maharashtra",
   email: "aryajawarkar7@gmail.com",
   phone: "8788652743",
@@ -15,22 +15,22 @@ export const personalInfo = {
 export const about = {
   title: "About Me",
   description: [
-    "I'm a Software Engineer with a passion for crafting elegant, high-performance frontend applications. Currently at Ignite Solutions, I specialize in React, TypeScript, and modern web technologies.",
-    "My approach combines technical excellence with a keen eye for design. I believe great software isn't just functional—it's intuitive, accessible, and delightful to use.",
-    "I thrive on solving complex problems, optimizing performance, and translating ambitious designs into production-ready code that users love."
+    "I'm a Software Engineer building complete web products across frontend and backend. Alongside React and TypeScript interfaces, I am now actively working on Python Flask services and MongoDB-backed application flows.",
+    "My current development workflow includes MongoDB Compass for database management and Postman for API testing, validation, and iterative backend development.",
+    "I focus on shipping clean, reliable applications by connecting polished user interfaces with practical backend architecture, efficient APIs, and maintainable data models."
   ],
   highlights: [
-    "Frontend-focused engineer with strong UI/UX sensibility",
-    "Builder mindset: clean architecture meets real-world usability",
-    "Performance-obsessed: every millisecond matters"
+    "Full-stack engineer with strength in modern frontend implementation",
+    "Backend learning and delivery focused on Flask APIs and MongoDB integration",
+    "Product-minded builder who values usability, structure, and reliability"
   ]
 };
 
 export const skills = {
-  frontend: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Web Performance Optimization"],
-  styling: ["Tailwind CSS", "ShadcnUI", "Material-UI", "Responsive Design", "Vite", "ESLint", "Prettier"],
-  tooling: ["Git", "GitHub", "Figma", "Linux", "Jira", "Zoho", "Cursor"],
-  apis: ["REST APIs", "GeminiAPI", "Open Router", "Axios", "JWT Authentication"],
+  frontend: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Responsive Design"],
+  styling: ["Tailwind CSS", "ShadcnUI", "Material-UI", "UI Development", "Vite", "ESLint", "Prettier"],
+  tooling: ["Git", "GitHub", "Figma", "Linux", "Jira", "MongoDB Compass", "Postman"],
+  backend: ["Python", "Flask", "REST APIs", "MongoDB", "Axios", "JWT Authentication"],
   fundamentals: ["Data Structures", "Algorithms", "DBMS", "Computer Networks", "Operating Systems"]
 };
 
@@ -38,9 +38,9 @@ export const projects = [
   {
     id: 1,
     title: "Floor Vision Pro",
-    description: "AI-powered flooring visualizer enabling users to preview different flooring options in their rooms through photo uploads. Helps homeowners and designers make confident aesthetic decisions without physical installation.",
-    tech: ["Next.js", "TypeScript", "GeminiAPI", "Open Router", "ShadcnUI"],
-    impact: ["Eliminates guesswork in flooring decisions", "Saves time and money on physical samples", "Enables side-by-side material comparisons"],
+    description: "AI-powered flooring visualizer that lets users preview flooring options in room images through an interactive web interface. Built around a modern frontend workflow with API-driven behavior and scalable product thinking.",
+    tech: ["Next.js", "TypeScript", "REST APIs", "ShadcnUI", "AI Integration"],
+    impact: ["Improves product visualization before purchase", "Reduces dependence on physical flooring samples", "Creates a faster decision-making experience for users"],
     github: null,
     live: null,
     type: "real"
@@ -67,15 +67,14 @@ export const experience = [
     duration: "January 2025 - Present",
     type: "Remote",
     responsibilities: [
-      "Working on the Chaturji.ai platform to develop and maintain scalable, modular frontend applications using React (TypeScript) and Jotai for state management",
-      "Collaborated closely with product managers and designers to convert Figma wireframes into high-performance, production-ready interfaces for Chaturji.ai",
-      "Optimized application performance by improving React render cycles, implementing lazy loading, and reducing unnecessary re-renders",
-      "Designed and implemented a Room Templates feature in Chaturji.ai that allows users to create rooms from predefined templates while preserving existing room information",
-      "Enhanced the Room Templates workflow by enabling users to enrich rooms with additional context from attached files without overwriting existing content",
-      "Refactored frontend components to improve type safety, reduce runtime bugs, and ensure long-term maintainability",
-      "Single-handedly implemented key product flows including user onboarding, login UI, and the core home chat screen interface",
-      "Improved overall user experience by enhancing load times and responsiveness across multiple devices",
-      "Used GitHub for version control, participated in code reviews, and maintained high code quality standards"
+      "Develop and maintain scalable application features with a strong focus on React, TypeScript, and clean frontend architecture",
+      "Collaborate with product managers and designers to convert Figma wireframes into responsive, production-ready interfaces",
+      "Optimize performance by improving render behavior, reducing unnecessary re-renders, and refining overall UI responsiveness",
+      "Implement modular product flows and reusable components that support long-term maintainability and faster feature delivery",
+      "Expand into backend development with Python Flask to better understand API design, integration workflows, and full-stack delivery",
+      "Work with MongoDB for application data handling, using MongoDB Compass for inspection and management during development",
+      "Use Postman to test, validate, and debug API endpoints as part of backend and integration work",
+      "Contribute to code quality through version control, iterative refactoring, and practical debugging across the stack"
     ],
     technologies: [
       "React.js",
@@ -83,6 +82,11 @@ export const experience = [
       "Jotai",
       "Next.js",
       "MUI",
+      "Python",
+      "Flask",
+      "MongoDB",
+      "MongoDB Compass",
+      "Postman",
       "Git",
       "GitHub"
     ]
@@ -110,6 +114,6 @@ export const education = [
 
 export const contact = {
   title: "Let's Build Something Great",
-  description: "I'm always interested in hearing about new opportunities, challenging projects, or just connecting with fellow developers. Feel free to reach out!",
+  description: "I'm open to software engineering opportunities, frontend roles, and growing full-stack work involving Python Flask, MongoDB, and API-driven products. Feel free to reach out!",
   cta: "Get In Touch"
 };

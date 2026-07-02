@@ -25,8 +25,8 @@ const Skills = () => {
       gradient: 'from-cyan-500/20 to-blue-500/20',
     },
     {
-      title: 'APIs & Integration',
-      items: skills.apis,
+      title: 'Backend & API Integration',
+      items: skills.backend,
       gradient: 'from-violet-500/20 to-blue-500/20',
     },
     {
