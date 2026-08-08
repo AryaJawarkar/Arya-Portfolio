@@ -3,7 +3,7 @@
 export const personalInfo = {
   name: "Arya Jawarkar",
   role: ['Software Engineer', 'FullStack Developer', 'Problem Solver'],
-  tagline: "Software Engineer working across React frontends and Python Flask backends, with MongoDB, MongoDB Compass, and Postman in the development workflow",
+  tagline: "Software Engineer working across React frontends and Python backends, building APIs on Flask with PostgreSQL and MongoDB, and deploying on AWS with S3, Lambda, IAM, and CloudWatch",
   location: "Pune, Maharashtra",
   email: "aryajawarkar7@gmail.com",
   phone: "8788652743",
@@ -15,14 +15,14 @@ export const personalInfo = {
 export const about = {
   title: "About Me",
   description: [
-    "I'm a Software Engineer building complete web products across frontend and backend. Alongside React and TypeScript interfaces, I am now actively working on Python Flask services and MongoDB-backed application flows.",
-    "My current development workflow includes MongoDB Compass for database management and Postman for API testing, validation, and iterative backend development.",
-    "I focus on shipping clean, reliable applications by connecting polished user interfaces with practical backend architecture, efficient APIs, and maintainable data models."
+    "I'm a Software Engineer building complete web products across frontend and backend. Alongside React and TypeScript interfaces, I write Python Flask services backed by PostgreSQL and MongoDB.",
+    "I work with AWS as part of shipping those services — S3 for object storage, Lambda for event-driven jobs, IAM for access control, and CloudWatch for logs and debugging in deployed environments.",
+    "My day-to-day workflow includes MongoDB Compass and SQL clients for data inspection, and Postman for API testing and validation. I focus on shipping clean, reliable applications by connecting polished interfaces with practical backend architecture and maintainable data models."
   ],
   highlights: [
     "Full-stack engineer with strength in modern frontend implementation",
-    "Backend learning and delivery focused on Flask APIs and MongoDB integration",
-    "Product-minded builder who values usability, structure, and reliability"
+    "Backend delivery across Flask APIs, PostgreSQL, and MongoDB",
+    "Hands-on with AWS S3, Lambda, IAM, and CloudWatch in deployed services"
   ]
 };
 
@@ -30,7 +30,8 @@ export const skills = {
   frontend: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Responsive Design"],
   styling: ["Tailwind CSS", "ShadcnUI", "Material-UI", "UI Development", "Vite", "ESLint", "Prettier"],
   tooling: ["Git", "GitHub", "Figma", "Linux", "Jira", "MongoDB Compass", "Postman"],
-  backend: ["Python", "Flask", "REST APIs", "MongoDB", "Axios", "JWT Authentication"],
+  backend: ["Python", "Flask", "REST APIs", "PostgreSQL", "MongoDB", "SQL", "Axios", "JWT Authentication"],
+  cloud: ["AWS S3", "AWS Lambda", "AWS IAM", "AWS CloudWatch"],
   fundamentals: ["Data Structures", "Algorithms", "DBMS", "Computer Networks", "Operating Systems"]
 };
 
@@ -71,8 +72,9 @@ export const experience = [
       "Collaborate with product managers and designers to convert Figma wireframes into responsive, production-ready interfaces",
       "Optimize performance by improving render behavior, reducing unnecessary re-renders, and refining overall UI responsiveness",
       "Implement modular product flows and reusable components that support long-term maintainability and faster feature delivery",
-      "Expand into backend development with Python Flask to better understand API design, integration workflows, and full-stack delivery",
-      "Work with MongoDB for application data handling, using MongoDB Compass for inspection and management during development",
+      "Build and maintain backend services in Python Flask, covering API design, integration workflows, and full-stack delivery",
+      "Work with PostgreSQL and MongoDB for application data handling, writing queries and using MongoDB Compass and SQL clients for inspection during development",
+      "Use AWS services in deployed environments — S3 for object storage, Lambda for event-driven tasks, IAM for access policies, and CloudWatch for logs and debugging",
       "Use Postman to test, validate, and debug API endpoints as part of backend and integration work",
       "Contribute to code quality through version control, iterative refactoring, and practical debugging across the stack"
     ],
@@ -84,8 +86,13 @@ export const experience = [
       "MUI",
       "Python",
       "Flask",
+      "PostgreSQL",
       "MongoDB",
       "MongoDB Compass",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS IAM",
+      "AWS CloudWatch",
       "Postman",
       "Git",
       "GitHub"
@@ -114,6 +121,6 @@ export const education = [
 
 export const contact = {
   title: "Let's Build Something Great",
-  description: "I'm open to software engineering opportunities, frontend roles, and growing full-stack work involving Python Flask, MongoDB, and API-driven products. Feel free to reach out!",
+  description: "I'm open to software engineering opportunities — frontend, backend, and full-stack roles involving React, Python Flask, PostgreSQL, MongoDB, and AWS-deployed products. Feel free to reach out!",
   cta: "Get In Touch"
 };

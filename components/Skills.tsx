@@ -25,9 +25,14 @@ const Skills = () => {
       gradient: 'from-cyan-500/20 to-blue-500/20',
     },
     {
-      title: 'Backend & API Integration',
+      title: 'Backend & Databases',
       items: skills.backend,
       gradient: 'from-violet-500/20 to-blue-500/20',
+    },
+    {
+      title: 'Cloud & Infrastructure',
+      items: skills.cloud,
+      gradient: 'from-blue-500/20 to-purple-500/20',
     },
     {
       title: 'Fundamentals',

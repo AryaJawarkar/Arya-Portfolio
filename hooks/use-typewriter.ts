@@ -1,4 +1,3 @@
-import { number } from 'framer-motion';
 import { useEffect, useState } from 'react';
 
 interface TypeWriter {
